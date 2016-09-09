@@ -20,3 +20,10 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+.gitattributes export-ignore
+.gitignore export-ignore
+features export-ignore
+spec export-ignore
+
+ignore-backbone merge=ours
